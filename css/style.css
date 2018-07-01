@@ -1,0 +1,89 @@
+/*GERAL */
+
+.h1-titles {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.h2-titles {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.p-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.75em;  
+}
+.btn-color {
+    color: #0f70b8;
+    border: solid 1px #0f70b8;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    font-size: 0.75rem;
+}
+.btn-style {
+  margin-bottom: 50px;
+}
+.btn-white {
+    color: #fff;
+    border: solid 1px #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    font-size: 0.75rem;
+}
+
+/*HEADER */
+.nav-style {
+  background: white;
+  border-bottom: solid 2px #0f70b8;
+}
+#logotipo {
+  padding-left: 21px;
+}
+
+/*INTRODUÇÃO */
+.home-intro {
+  background: url(../img/bg-home-intro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+}
+.home-intro p {
+  font-weight: bold;
+  font-size: 3em;
+  font-family: 'Oswald',sans-serif;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-shadow: 0.5px 0.5px #000;  
+}
+
+/*SERVIÇOS */
+
+.home-servicos {
+  border: 1px #fff;
+  
+}
+
+.home-servicos img {
+  width: 100%;
+}
+
+/*CAROUSEL */
+
+.carousel-inner img {
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+/*FOOTER */
+
+.bg-footer {
+    background: #0f70b8;
+}
+.rodape {
+    margin-bottom: 0;
+    position: absolute
+}
