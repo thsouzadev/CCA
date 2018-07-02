@@ -7,13 +7,13 @@
 }
 .h2-titles {
   font-family: 'Oswald', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 .p-text {
   font-family: 'Roboto', sans-serif;
-  font-size: 0.75rem;
+  font-size: 1rem;
   line-height: 1.75em;  
 }
 .btn-color {
@@ -21,17 +21,26 @@
     border: solid 1px #0f70b8;
     font-family: 'Roboto', sans-serif;
     padding: 10px 20px;
-    font-size: 0.75rem;
+    font-size: 1rem;
+}
+.btn-color:hover{
+  color: white;
+  background: #0f70b8;
 }
 .btn-style {
   margin-bottom: 50px;
 }
+
 .btn-white {
     color: #fff;
     border: solid 1px #fff;
     font-family: 'Roboto', sans-serif;
     padding: 10px 20px;
-    font-size: 0.75rem;
+    font-size: 1rem;
+}
+.btn-white:hover {
+  background: orange;
+  border: 1px solid orange;
 }
 
 /*HEADER */
@@ -42,14 +51,17 @@
 #logotipo {
   padding-left: 21px;
 }
+a.nav-link:hover{
+  border-bottom: 2px solid red;
+}
 
 /*INTRODUÇÃO */
 .home-intro {
   background: url(../img/bg-home-intro.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  width: auto;
-  height: auto;
+  background-size: cover;
+  width: 100%; 
 }
 .home-intro p {
   font-weight: bold;
