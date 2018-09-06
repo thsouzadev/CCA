@@ -1,101 +1,557 @@
-/*GERAL */
+/*----------------GERAL----------------*/
 
-.h1-titles {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.5rem;
-  margin-bottom: 30px;
+html, body {
+  margin: 0 auto;
+  max-width: 100%;
+  overflow-x: hidden;
 }
-.h2-titles {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.25rem;
-  margin-top: 15px;
-  margin-bottom: 15px;
+
+li {
+  display: list-item;
 }
-.p-text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.75em;  
+
+.titulo {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 160px;
+  margin: 0 auto;
 }
-.btn-color {
-    color: #0f70b8;
-    border: solid 1px #0f70b8;
-    font-family: 'Roboto', sans-serif;
-    padding: 10px 20px;
-    font-size: 1rem;
+
+.h1-white {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
 }
-.btn-color:hover{
-  color: white;
-  background: #0f70b8;
+
+.h1-color {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 22px;
+  color: #0F70B8;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-weight: bold;
 }
-.btn-style {
-  margin-bottom: 50px;
+
+.h2-white {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+  
+.h2-color {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 18px;
+  color: #0F70B8;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.p-white {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2em;
+}
+
+.p-color {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 16px;
+  color: #0F70B8;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2em;
 }
 
 .btn-white {
-    color: #fff;
-    border: solid 1px #fff;
-    font-family: 'Roboto', sans-serif;
-    padding: 10px 20px;
-    font-size: 1rem;
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 16px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 25px;
 }
+
+.btn-color {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 16px;
+  color: #fff;
+  border: 2px solid #0F70B8;
+  background: #0F70B8;
+  padding: 10px 25px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #0F70B8;
+  transition: 0.25s ease;
+}
+
 .btn-white:hover {
-  background: orange;
-  border: 1px solid orange;
+  border: 2px solid yellow;
+  color: yellow;
+  transition: 0.25s ease;
 }
 
-/*HEADER */
-.nav-style {
-  background: white;
-  border-bottom: solid 2px #0f70b8;
-}
-#logotipo {
-  padding-left: 21px;
-}
-a.nav-link:hover{
-  border-bottom: 2px solid red;
+.btn-color:hover {
+  background: #fff;
+  border: 2px solid #0F70B8;
+  color: #0F70B8;
+  transition: 0.25s ease;
 }
 
-/*INTRODUÇÃO */
-.home-intro {
-  background: url(../img/bg-home-intro.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%; 
+footer a:hover {
+  color: yellow;
+  transition: 0.25s ease;
 }
-.home-intro p {
-  font-weight: bold;
-  font-size: 3em;
-  font-family: 'Oswald',sans-serif;
-  padding-top: 250px;
-  padding-bottom: 250px;
-  text-shadow: 0.5px 0.5px #000;  
-}
+/*----------------HEADER----------------*/
 
-/*SERVIÇOS */
-
-.home-servicos {
-  border: 1px #fff;
-  
+header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  margin: auto;
+  z-index: 10000;
+  background: #fff;
+  height: 125px;
+  border-bottom: 1px solid #0F70B8;
 }
 
-.home-servicos img {
+.container {
+  display: flex;
+  justify-content: space-around;
   width: 100%;
 }
 
-/*CAROUSEL */
+header img {
+  margin-top: 15px;
+}
 
-.carousel-inner img {
+nav {
+  margin-left: 300px;
+  text-align: center
+}
+
+ul {
+  margin-top: 50px;
+}
+
+li {
+  display:inline;
+}
+
+header a {
+  font-family: "IBM Plex Sans",sans-serif;
+  font-size: 16px;
+  margin-right: 15px;
+  color: #0F70B8;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/*----------------HOME INTRODUÇÃO----------------*/
+
+.introducao {
+  margin-top: 95px;
+  background: url(../img/bg-home.jpg) no-repeat center;
+  background-size: cover;
+  height: 490px;
+  width: 100%;
+}
+
+/*----------------HOME QUEM SOMOS----------------*/
+
+.home-quemSomos {
+  width: 100%;
+  height: 410px;
+  background: #0F70B8;
   margin: 0 auto;
-  padding-bottom: 30px;
+  text-align: center;
 }
 
-/*FOOTER */
-
-.bg-footer {
-    background: #0f70b8;
+.home-quemSomos p {
+  max-width: 555px;
+  padding-top: 20px;
+  margin-bottom: 40px;
 }
+
+/*----------------NOSSOS SERVIÇOS----------------*/
+
+.nossos-servicos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#instalacao {
+  width: 90px;
+  margin: 0 auto;
+}
+
+#manutencao {
+  width: 77px;
+  margin: 0 auto;
+}
+
+#recarga {
+  width: 51px;
+  margin: 0 auto;
+}
+
+#reforma {
+  width: 90px;
+  margin: 0 auto;
+}
+
+.nossos-servicos p {
+  max-width: 270px;
+}
+
+.home-servicos {
+  margin-top: 40px;
+}
+
+.home-servicos h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.nossos-servicos a {
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+/*----------------FOOTER----------------*/
+
+footer {
+  background: #0F70B8;
+  margin: 0 auto;
+}
+
+footer h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer p {
+  max-width: 270px;
+  padding-bottom: 20px;
+}
+.footer-itens {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-self: center;
+  padding: 0;
+}
+
+footer a {
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+#facebook {
+  width: 50px;
+}
+
 .rodape {
-    margin-bottom: 0;
-    position: absolute
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 7px;
 }
+
+/*----------------ABOUT INTRO----------------*/
+
+.about-intro {
+  display: flex;
+  background: url(../img/bg-about.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 490px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-intro h1 {
+  width: 100%;
+  padding-left: 100px 100px;
+}
+
+.quemSomos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quemSomos h1 {
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+
+#about-p {
+  padding-bottom: 20px;
+}
+
+#about-h2 {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+.about-itens {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.about-itens h2 {
+  padding-top: 10px;
+  padding-bottom: 15px;  
+}
+
+#qualidade {
+  width: 80px;
+  align-self: center;
+}
+
+#seguranca {
+  width: 60px;
+  align-self: center;
+}
+
+#comprometimento {
+  width: 66px;
+  align-self: center;
+}
+
+.about-itens p {
+  text-align:justify;
+  max-width: 310px;
+  margin: 0 auto;
+  text-align-last: center
+}
+
+.quemSomos a {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/*----------------SERVIÇOS----------------*/
+
+.servicos-intro {
+  display: flex;
+  background: url(../img/bg-servicos.jpg)no-repeat center;
+  background-size: cover;
+  justify-content: center;
+  width: 100%;
+  height: 490px;
+  align-items: center;
+}
+.instalacao, .manutencao, .recarga, .reforma {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.instalacao img {
+  margin-top: 50px;
+  width: 100%;  
+}
+
+.instalacao h2 {
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.instalacao p {
+  text-align: justify;
+  text-align-last: center;
+  padding-bottom: 20px;
+}
+
+.manutencao img {
+  margin-top: 50px;
+  width: 100%;  
+}
+
+.manutencao h2 {
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.manutencao p {
+  text-align: justify;
+  text-align-last: center;
+  padding-bottom: 20px;
+}
+
+.recarga img {
+  margin-top: 50px;
+  width: 100%;  
+}
+
+.recarga h2 {
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.recarga p {
+  text-align: justify;
+  text-align-last: center;
+  padding-bottom: 100px;
+}
+
+.reforma img {
+  width: 100%;  
+}
+
+.reforma h2 {
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.reforma p {
+  text-align: justify;
+  text-align-last: center;
+  padding-bottom: 100px;
+}
+
+.footer-servicos {
+  background: #0F70B8;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 40px;
+}
+.ul-list {
+  margin: 0 auto;
+  margin-bottom: 20px;
+    
+}
+
+.ul-list li {
+  background: url(../img/check.png) no-repeat left;
+  display: flex;
+  padding-left: 50px;
+  line-height: 35px;
+}
+.ul-recarga {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: inline;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+.ul-recarga li {
+  background: url(../img/check.png) no-repeat left;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.reforma {
+  margin-bottom: 0;
+}
+.myOwl {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.myOwl img:hover {
+  transform:scale(1.1);
+  transition: .2s ease;
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1)
+}
+
+/*----------------CONTATO----------------*/
+
+.contato-intro {
+  background: url(../img/bg-contato.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myForm {
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.myForm label {
+  font-family: 'IBM Plex Sans',sans-serif;
+  font-size: 16px;
+  color: #0F70B8;
+  margin-bottom: 7px;
+  margin-top: 5px;
+}
+
+.myForm input {
+  border: 2px solid #0F70B8;
+  height: 30px;
+}
+.myForm button {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.myForm textarea {
+  border: 2px solid #0F70B8;
+  height: 140px;
+  margin-bottom: 20px;
+}
+textarea::placeholder {
+  font-family: 'IBM Plex Sans',sans-serif;
+  
+}
+.contato p {
+  margin-top: 60px;
+}
+
+/*Style para Hide do Formulário*/
+
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span, #form-send span  {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}
+
+/*------------- Responsivo ------------------ */
+
+

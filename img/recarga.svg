@@ -1,49 +1,21 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 452.608 452.608" style="enable-background:new 0 0 452.608 452.608;" xml:space="preserve">
-<g>
-	<g>
-		<path d="M285.184,92.672V63.488h6.656c17.408,0,31.744-14.336,31.744-31.744S309.248,0,291.84,0H160.768
-			c-17.408,0-31.744,14.336-31.744,31.744c0,17.408,14.336,31.744,31.744,31.744h6.656v29.184
-			c-38.912,2.56-69.12,34.816-69.12,73.728v80.384h256V166.4C354.304,127.488,324.096,95.232,285.184,92.672z M259.584,92.16h-20.48
-			V80.896h-25.6V92.16h-20.48V62.976h66.56V92.16z"/>
-	</g>
-</g>
-<g>
-	<g>
-		<path d="M98.304,272.384v81.92c0,28.16,15.872,53.76,40.96,66.56v31.744h174.08v-31.744c25.088-12.8,40.96-38.4,40.96-66.56
-			v-81.92H98.304z"/>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 95.472">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0f70b8;
+      }
+    </style>
+  </defs>
+  <g id="recarga" transform="translate(-98.304)">
+    <g id="Group_6" data-name="Group 6" transform="translate(98.304)">
+      <g id="Group_5" data-name="Group 5">
+        <path id="Path_8" data-name="Path 8" class="cls-1" d="M137.724,19.548V13.392h1.4a6.73,6.73,0,0,0,6.7-6.7,6.73,6.73,0,0,0-6.7-6.7H111.48a6.73,6.73,0,0,0-6.7,6.7,6.73,6.73,0,0,0,6.7,6.7h1.4v6.156A15.592,15.592,0,0,0,98.3,35.1V52.056h54V35.1A15.592,15.592,0,0,0,137.724,19.548Zm-5.4-.108H128V17.064h-5.4V19.44h-4.32V13.284h14.04Z" transform="translate(-98.304)"/>
+      </g>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(98.304 57.456)">
+      <g id="Group_7" data-name="Group 7">
+        <path id="Path_9" data-name="Path 9" class="cls-1" d="M98.3,272.384v17.28a15.763,15.763,0,0,0,8.64,14.04v6.7h36.72v-6.7a15.763,15.763,0,0,0,8.64-14.04v-17.28h-54Z" transform="translate(-98.304 -272.384)"/>
+      </g>
+    </g>
+  </g>
 </svg>

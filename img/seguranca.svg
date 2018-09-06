@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 65.864">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0f70b8;
+      }
+    </style>
+  </defs>
+  <g id="seguranca" transform="translate(-22.793)">
+    <g id="Group_29" data-name="Group 29" transform="translate(22.793)">
+      <g id="Group_28" data-name="Group 28" transform="translate(0)">
+        <path id="Path_19" data-name="Path 19" class="cls-1" d="M80.86,10.478a8.555,8.555,0,0,1-8.545-8.545V0H33.271V1.933a8.555,8.555,0,0,1-8.545,8.545H22.793V23.334A45.138,45.138,0,0,0,52.116,65.611l.677.253.677-.253A45.138,45.138,0,0,0,82.793,23.334V10.478ZM78.927,23.334h0A41.272,41.272,0,0,1,52.793,61.729,41.271,41.271,0,0,1,26.659,23.334v-9.14A12.442,12.442,0,0,0,36.987,3.866H68.6A12.442,12.442,0,0,0,78.927,14.194Z" transform="translate(-22.793)"/>
+      </g>
+    </g>
+    <g id="Group_31" data-name="Group 31" transform="translate(35.964 18.162)">
+      <g id="Group_30" data-name="Group 30">
+        <path id="Path_20" data-name="Path 20" class="cls-1" d="M150.637,141.187l-12.8,12.8-4.456-4.456-8.2,8.2,12.658,12.658,21-21ZM130.65,157.73,133.384,155l4.456,4.456,12.8-12.8,2.734,2.734L137.84,164.92Z" transform="translate(-125.182 -141.187)"/>
+      </g>
+    </g>
+  </g>
+</svg>

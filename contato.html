@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>CCA - Centro de Controle de Ar Condicionado</title>
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700" rel="stylesheet"> 
+        <script src="js/jquery-3.3.1.min.js"></script> 
+        
+             
+    </head>
+    
+    <body>
+      
+      <header>
+        <div class="container">
+          <div>
+            <img src="img/logotipo.png" alt="Logotipo da CCA">
+          </div>
+          <div>
+            <nav>
+              <ul>
+                <li><a class="nav-text" href="index.html">HOME</a></li>
+                <li><a class="nav-text" href="quemsomos.html">QUEM SOMOS</a></li>
+                <li><a class="nav-text" href="servicos.html">SERVIÇOS</a></li>
+                <li><a class="nav-text" href="contato.html">CONTATO</a></li>
+              </ul>
+          </nav>
+          </div>
+        </div>
+      </header>
+      
+      <section class="contato-intro">
+       
+        <div>
+          <h1 class="titulo">Contato</h1>
+        </div>
+        
+      </section>
+      
+      <section class="contato">
+        <div class="container">
+          <div class="myForm col-md-5">
+            <form action="enviar.php" method="post" name="form" class="formphp">
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" type="text" placeholder="Digite o seu nome">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="text" placeholder="Digite um endereço de e-mail válido">
+              <label for="telefone">Telefone</label>
+              <input id="telefone" name="telefone" type="text" placeholder="Digite o seu número de telefone">
+
+              <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+              <input type="text" class="nao-aparece" name="leaveblank">
+              <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+              <input type="text" class="nao-aparece" name="dontchange" value="http://" >
+
+              <label for="mensagem">Mensagem</label>
+              <textarea name="mensagem" id="mensagem" placeholder="Escreva a sua mensagem aqui..."></textarea>
+
+              <button class="btn-color" id="enviar" name="enviar" type="submit">ENVIAR</button>
+        </form>
+          </div>
+          
+          <p class="p-color myForm">A CCA conta com uma equipe técnica e comercial sempre disposta a atender os nossos clientes e parceiros de negócios com o máximo qualidade. 
+          Entre com contato conosco e faça um orçamento sem compromisso, estamos à sua disposição!</p>
+        </div>
+        
+      </section>
+      <footer>
+        <div class="container">
+          <div class="footer-itens">
+            <h2 class="h2-white">Mapa do Site</h2>
+            <ul>
+              <li><a class="p-white" href="index.html">Home</a></li>
+              <li><a class="p-white" href="quemsomos.html">Quem Somos</a></li>
+              <li><a class="p-white" href="servicos.html">Serviços</a></li>
+              <li><a class="p-white" href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-itens">
+            <h2 class="h2-white">Fale Conosco</h2>
+            <p class="p-white">(11) 4229-6824<br> (11) 97015-2356<br>
+              atendimento.ccar@gmail.com
+            </p>
+            
+          </div>
+          <div class="footer-itens">
+            <h2 class="h2-white">Localização</h2>
+            <p class="p-white">Rua Maximiliano Lorenzini, 303 - Fundação - 09520-520 - São Caetano do Sul - SP
+            </p>            
+          </div>
+          <div class="footer-itens">
+            <h2 class="h2-white">Redes Sociais</h2>
+            <p class="p-white">Acompanhe a CCA no Facebook e fique por dentro das novidades!
+            </p>
+            <a href="contato.html">
+              <img id="facebook" src="img/facebook.svg" alt="Link para o Facebook">
+            </a>
+          </div>          
+        </div>        
+      </footer>
+      <div><p class="p-color rodape">CCA - Centro de Controle em Ar Condicionado - 2018 - Todos os Direitos Reservados</p>
+        </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>    
+    <script src="js/main.js"></script>    
+       
+    </body>
+</html>
