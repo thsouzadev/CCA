@@ -2,13 +2,13 @@
 
 // Mudar Aqui
 
-$email_envio = 'comercial@safeprotecnologia.com.br'; // E-mail receptor
-$email_pass = 'S@fe4625'; // Senha do e-mail
+$email_envio = 'vendas@ccarcondicionado.com.br'; // E-mail receptor
+$email_pass = 'ronymelo1'; // Senha do e-mail
 
-$site_name = 'SafePro Tecnologia'; // Nome do Site
-$site_url = 'www.safeprotecnologia.com.br'; // URL do Site
+$site_name = 'CCA Centro de Controle em Ar Condicionado'; // Nome do Site
+$site_url = 'http://www.ccarcondicionado.com.br'; // URL do Site
 
-$host_smtp = 'br236.hostgator.com.br'; // HOST SMTP Ex: smtp.domain.com.br
+$host_smtp = 'mail.ccarcondicionado.com.br'; // HOST SMTP Ex: smtp.domain.com.br
 $host_port = '465'; // Porta do Host
 
 // Variáveis do Formulário

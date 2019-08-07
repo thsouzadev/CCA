@@ -269,6 +269,7 @@ footer a {
 
 #facebook {
   width: 50px;
+    margin-right: 10px;
 }
 
 .rodape {
@@ -276,6 +277,13 @@ footer a {
   width: 100%;
   margin: 0 auto;
   padding: 7px;
+}
+
+.redes-sociais {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: flex;
+    
 }
 
 /*----------------ABOUT INTRO----------------*/
